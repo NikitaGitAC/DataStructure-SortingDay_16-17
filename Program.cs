@@ -5,7 +5,8 @@
         public static void Main(string[]args)
         {
             Console.WriteLine("Data Structures and Algorithms Programs");
-            Bubblesort.Displaybubblesort();
+            insertionsort insertionsort = new insertionsort();
+            insertionsort.DisplayInsertionsort();
         }
     }
 }
