@@ -5,8 +5,7 @@
         public static void Main(string[]args)
         {
             Console.WriteLine("Data Structures and Algorithms Programs");
-            insertionsort insertionsort = new insertionsort();
-            insertionsort.DisplayInsertionsort();
+            anagramprogram.CheckAnagram();
         }
     }
 }
